@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Learn-OnlineOrder:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Learn-OnlineOrder</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Learn-OnlineOrder-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Learn-OnlineOrder:war exploded" />
+    </root>
+  </artifact>
+</component>
